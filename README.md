@@ -25,4 +25,4 @@ Este projeto consiste na criação de um site da Starbucks, desenvolvido com bas
 Você pode acessar o site [aqui.](https://b7web-starbucks.vercel.app/)
 
 ## :memo: Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](README.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
