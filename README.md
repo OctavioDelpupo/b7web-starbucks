@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img width="100%" style="max-width:100%" src="">
+  <img width="100%" style="max-width:100%" src="starbucks-mockup.png">
 </p>
 
 ## :computer: Projeto
