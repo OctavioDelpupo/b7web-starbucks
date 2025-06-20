@@ -5,20 +5,25 @@
 }
 
 .area4--content {
-  padding: 170px 80px; 
+  padding: 170px 80px;
 }
 
 .area4--text {
   margin-bottom: 50px;
   line-height: 25px;
 }
-.area4--img1{
- background-image: url("/assets/images/bg3.jpg");
- background-position: left;
- }
- .area5{
-  height: 750px;
-  background-image: url("/assets/images/bg4.jpg");
-  background-size: cover;
-  background-position: center;
- }
+
+.area4--img1 {
+  background-image: url("/assets/images/bg3.jpg");
+  background-position: left;
+}
+
+@media (max-width: 426px) {
+  .area4 {
+    grid-template-columns: 1fr;
+  }
+
+  .area4--content {
+    padding: 40px;
+  }
+}

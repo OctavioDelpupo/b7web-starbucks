@@ -1,7 +1,8 @@
-.area3{
+.area3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .area3--content {
   padding: 200px 90px;
   background-image: url("/assets/images/bg2.jpg");
@@ -13,8 +14,25 @@
   margin-bottom: 50px;
   line-height: 25px;
 }
+
 .area3--img1 {
   background-image: url("/assets/images/f5.jpg");
   background-size: cover;
   background-position: center;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .area3 {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+@media (max-width: 426px) {
+  .area3 {
+    grid-template-columns: 1fr;
+  }
+
+  .area3--content {
+    padding: 40px;
+  }
 }

@@ -1,0 +1,10 @@
+.area5 {
+  height: 750px;
+  background-image: url("/assets/images/bg4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.area5 {
+  height: 200px;
+}

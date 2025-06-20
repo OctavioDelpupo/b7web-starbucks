@@ -1,59 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
 
-:root{
-    --primary-color: #117050;
-    --secondary-color: #999999;
-    --font--primary: "Open Sans", sans-serif;
-    --font--secondary: "Oswald", sans-serif;
+:root {
+  --primary-color: #117050;
+  --secondary-color: #999999;
+  --font--primary: "Open Sans", sans-serif;
+  --font--secondary: "Oswald", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: var(--font--primary);
-  }
+body {
+  font-family: var(--font--primary);
+}
 
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.bar {
+  background-color: var(--primary-color);
+  width: 168px;
+  height: 22px;
+}
+
+h1 {
+  font-family: var(--font--secondary);
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 100px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: var(--font--secondary);
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  margin: 20px 0px;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid #454545;
+  border-radius: 3px;
+  color: #454545;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #454545;
+  color: white;
+}
+
+@media (min-width: 769px) and (max-width: 1140px) {
   .container {
-    max-width: 1140px;
-    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+}
 
-  .bar {
-    background-color: var(--primary-color);
-    width: 168px;
-    height: 22px;
+@media (min-width: 426px) and (max-width: 768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 426px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   h1 {
-    font-family: var(--font--secondary);
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 100px;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-  
-  h2 {
-    font-family: var(--font--secondary);
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 45px;
-    margin: 20px 0px;
+    font-size: 55px;
+    line-height: 60px;
   }
 
-  .button {
-    display: inline-block;
-    border: 2px solid #454545;
-    border-radius: 3px;
-    color: #454545;
-    padding: 10px 30px;
-    text-decoration: none;
+  h2 {
+    font-size: 25px;
+    line-height: 50px;
   }
-  .button:hover {
-    background-color: #454545;
-    color: white;
-  }
+}

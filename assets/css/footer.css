@@ -1,6 +1,13 @@
-footer{
-    background-color: #333;
-    color: white;
-    padding: 80px;
-    text-align: center;
-   }
+footer {
+  background-color: #333;
+  color: white;
+  padding: 80px;
+  text-align: center;
+}
+
+@media (max-width: 426px) {
+  footer {
+    font-size: 12px;
+    padding: 40px 20px;
+  }
+}

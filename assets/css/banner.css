@@ -1,17 +1,26 @@
 .banner {
-    background-image: url("../images/bg.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
-  
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.banner--images img {
+  width: 148px;
+  height: 148px;
+  border: 6px solid var(--primary-color);
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+@media (max-width: 426px) {
   .banner--images img {
-    width: 148px;
-    height: 148px;
-    border: 6px solid var(--primary-color);
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--primary-color);
     border-radius: 50%;
-    margin-top: 60px;
-    margin-right: 40px;
+    margin-right: 10px;
   }
-  
+}
